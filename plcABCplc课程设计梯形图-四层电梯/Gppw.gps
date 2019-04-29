@@ -1,0 +1,617 @@
+[PCDLG]
+	ConnectDialg:
+		Combo01	TYPE_DWORD10	0
+		Combo02	TYPE_DWORD10	0
+		Combo03	TYPE_DWORD10	0
+		Combo04	TYPE_DWORD10	0
+		Combo05	TYPE_DWORD10	0
+		Combo06	TYPE_DWORD10	0
+	Connection:
+		lStructSize	TYPE_DWORD10	128
+		lNetowrkNo	TYPE_DWORD10	0
+		lStationNo	TYPE_DWORD10	255
+		lUnitNo	TYPE_DWORD10	0
+		lIONo	TYPE_DWORD10	0
+		lCpuType	TYPE_DWORD10	517
+		lUnitType	TYPE_DWORD10	15
+		lPacketType	TYPE_DWORD10	1
+		lProtocolType	TYPE_DWORD10	4
+		lPortNo	TYPE_DWORD10	1
+		lBaudRate	TYPE_DWORD10	9600
+		lDataBits	TYPE_DWORD10	7
+		lParity	TYPE_DWORD10	2
+		lStopBits	TYPE_DWORD10	0
+		lControl	TYPE_DWORD10	8
+		szAddr	TYPE_STRING	""
+		lCpuTimeOut	TYPE_DWORD10	0
+		lTimeOut	TYPE_DWORD10	10000
+		lSumCheck	TYPE_DWORD10	1
+		lSrcNetNo	TYPE_DWORD10	0
+		lSrcStaNo	TYPE_DWORD10	0
+		lDstPortNo	TYPE_DWORD10	0
+		lConUnitNo	TYPE_DWORD10	0
+	ConnectEther:
+		Radio01	TYPE_DWORD10	0
+		Combo01	TYPE_DWORD10	0
+		Edit01	TYPE_STRING	"0"
+		Edit02	TYPE_STRING	"0"
+		Edit03	TYPE_STRING	"0"
+		Edit04	TYPE_STRING	"0"
+	NewConDlg:
+		CompIF	TYPE_WORD16	0x1
+		CompCom	TYPE_DWORD10	1
+		CompBoard	TYPE_DWORD10	0
+		CompBaudRate	TYPE_DWORD10	9600
+		CompNetwork	TYPE_DWORD10	0
+		CompStation	TYPE_DWORD10	0
+		CompChNo	TYPE_DWORD10	0
+		PcIf	TYPE_WORD16	0x100
+		PcNetwork	TYPE_DWORD10	0
+		PcStation	TYPE_DWORD10	0
+		PcC24Unit	TYPE_WORD16	0x0
+		PcC24Parity	TYPE_DWORD10	0
+		PcC24SumCheck	TYPE_BOOL	FALSE
+		PcE71IPAddrKind	TYPE_DWORD10	0
+		PcE71IPAddr1	TYPE_DWORD10	0
+		PcE71IPAddr2	TYPE_DWORD10	0
+		PcE71IPAddr3	TYPE_DWORD10	0
+		PcE71IPAddr4	TYPE_DWORD10	0
+		PcE71HostName	TYPE_STRING	""
+		PcE71PortNo	TYPE_DWORD16	0x0
+		PcQE71Network	TYPE_DWORD10	0
+		PcQE71Station	TYPE_DWORD10	0
+		PcEtherUnitNetwork	TYPE_DWORD10	0
+		PcEtherUnitstation	TYPE_DWORD10	0
+		PcQE71ParamCnv	TYPE_DWORD10	0
+		EtherTimeout	TYPE_DWORD10	0
+		NetKind	TYPE_WORD16	0x201
+		NetNetwork	TYPE_DWORD10	0
+		NetStation	TYPE_DWORD10	0
+		NetStartIo	TYPE_DWORD16	0x0
+		TimeSelf	TYPE_DWORD10	10
+		NetKind2	TYPE_WORD16	0x201
+		Net2Network	TYPE_DWORD10	0
+		Net2Station	TYPE_DWORD10	0
+		Net2StartIo	TYPE_DWORD16	0x0
+		PcMode	TYPE_DWORD10	0
+		PortType	TYPE_DWORD10	0
+		CompProtocol	TYPE_DWORD10	0
+		PcE71PortType	TYPE_DWORD10	0
+		MacMode	TYPE_DWORD10	0
+		A6TELConv	TYPE_DWORD10	0
+		GotMode	TYPE_DWORD10	0
+		GotF900Mode	TYPE_DWORD10	0
+		Got1000Mode	TYPE_DWORD10	0
+		Got1000Mode_FX	TYPE_DWORD10	0
+		CompParity	TYPE_DWORD10	0
+		CompDataBit	TYPE_DWORD10	8
+		CompStopBit	TYPE_DWORD10	1
+		MultiCpuStatus	TYPE_DWORD10	0
+		MultiCpuNum	TYPE_DWORD10	0
+		RedundantCpuStatus	TYPE_DWORD10	0
+		RedundantCpuMode	TYPE_DWORD10	0
+		RetryCount	TYPE_DWORD10	0
+		BoardType	TYPE_DWORD10	0
+	CnctOption:
+		DlgOpenMode	TYPE_DWORD10	0
+	RUN:
+[TelBlock]
+	ConnectSection:
+		LoggingSW	TYPE_DWORD10	1
+		FXPPModemMode	TYPE_DWORD10	0
+		LineType	TYPE_DWORD10	1
+		OutsideNo	TYPE_STRING	""
+		AtCommandMode	TYPE_DWORD10	1
+		AtCommand	TYPE_STRING	""
+		AtComment	TYPE_STRING	""
+		TelPassword	TYPE_STRING	""
+		ConnectType	TYPE_DWORD10	0
+		PhoneNo	TYPE_STRING	""
+		TargetName	TYPE_STRING	""
+		ConnectComPort	TYPE_DWORD10	1
+		ConnectCond	TYPE_BOOL	FALSE
+		CallBkPhoneNo	TYPE_STRING	""
+		MacParity	TYPE_DWORD10	1
+		MACGsmModemWaitingCount	TYPE_DWORD10	100
+		ConnectWaitTime	TYPE_DWORD10	90
+		ConnectRevWaitTime	TYPE_DWORD10	5
+		DisconnectWaitTime	TYPE_DWORD10	5
+		DisconnectDelayTime	TYPE_DWORD10	3
+		TransResWaitTime	TYPE_DWORD10	1
+		PassCanResWaitTime	TYPE_DWORD10	5
+		TransRetryCount	TYPE_DWORD10	3
+		TransDelayTime	TYPE_DWORD10	0
+		CallBkDisconnectTime	TYPE_DWORD10	90
+		CallBkDelayTime	TYPE_DWORD10	20
+		IntialAtCommand	TYPE_STRING	"AT&f"
+[Gppw]
+	MainFrameWnd:
+		Maximize	TYPE_BOOL	TRUE
+		WindowLeft	TYPE_DWORD10	88
+		WindowTop	TYPE_DWORD10	116
+		WindowRight	TYPE_DWORD10	1048
+		WindowBottom	TYPE_DWORD10	838
+		StatusBar	TYPE_BOOL	TRUE
+	BrowzerWnd:
+		BrowzerFloat	TYPE_BOOL	FALSE
+		WindowLeft	TYPE_DWORD10	0
+		WindowTop	TYPE_DWORD10	144
+		WindowRight	TYPE_DWORD10	137
+		WindowBottom	TYPE_DWORD10	974
+		BrowzerView	TYPE_BOOL	FALSE
+	ToolBarWnd:
+		UserSet	TYPE_BOOL	TRUE
+		MainDoc	TYPE_DWORD16	0xe81b
+		MainFloat	TYPE_BOOL	FALSE
+		MainWindowRect	TYPE_STRING	"0 2e 1d2 4e"
+		MainToolBarView	TYPE_BOOL	TRUE
+		MainToolBarB0	TYPE_STRING	"1c 0 7d64 0 0 1"
+		MainToolBarB1	TYPE_STRING	"1c 1 7d65 0 1 1"
+		MainToolBarB2	TYPE_STRING	"1c 2 7d84 0 2 1"
+		MainToolBarB3	TYPE_STRING	"1c 3 0 1 6 1"
+		MainToolBarB4	TYPE_STRING	"1c 4 7d9a 0 3 1"
+		MainToolBarB5	TYPE_STRING	"1c 80000017 7d9b 0 4 1"
+		MainToolBarB6	TYPE_STRING	"1c 5 0 1 6 1"
+		MainToolBarB7	TYPE_STRING	"1c 6 e123 0 5 1"
+		MainToolBarB8	TYPE_STRING	"1c 7 e122 0 6 1"
+		MainToolBarB9	TYPE_STRING	"1c 8 e125 0 7 1"
+		MainToolBarB10	TYPE_STRING	"1c 9 e12b 0 8 1"
+		MainToolBarB11	TYPE_STRING	"1c 17 e12c 0 12 1"
+		MainToolBarB12	TYPE_STRING	"1c a 0 1 6 1"
+		MainToolBarB13	TYPE_STRING	"1c b 7e17 0 9 1"
+		MainToolBarB14	TYPE_STRING	"1c c 7e18 0 a 1"
+		MainToolBarB15	TYPE_STRING	"1c d 7e1a 0 b 1"
+		MainToolBarB16	TYPE_STRING	"1c e 0 1 6 1"
+		MainToolBarB17	TYPE_STRING	"1c f 7d68 0 c 1"
+		MainToolBarB18	TYPE_STRING	"1c 10 7d67 0 d 1"
+		MainToolBarB19	TYPE_STRING	"1c 80000018 0 1 6 1"
+		MainToolBarB20	TYPE_STRING	"1c 80000019 7e97 0 12 1"
+		MainToolBarB21	TYPE_STRING	"1c 8000001a 7e98 0 13 1"
+		MainToolBarB22	TYPE_STRING	"1c 11 0 1 6 1"
+		MainToolBarB23	TYPE_STRING	"1c 12 7d6f 0 e 1"
+		MainToolBarB24	TYPE_STRING	"1c 13 7d6e 0 f 1"
+		MainToolBarB25	TYPE_STRING	"1c 14 0 1 6 1"
+		MainToolBarB26	TYPE_STRING	"1c 15 7d79 0 10 1"
+		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 1"
+		BrowzerDoc	TYPE_DWORD16	0xe81b
+		BrowzerFloat	TYPE_BOOL	TRUE
+		BrowzerWindowRect	TYPE_STRING	"e6 8bb 22c 8db"
+		BrowzerToolBarView	TYPE_BOOL	TRUE
+		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
+		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
+		BrowzerToolBarB2	TYPE_STRING	"6 2 4e67 1 78 1"
+		BrowzerToolBarB3	TYPE_STRING	"6 3 0 1 c 1"
+		BrowzerToolBarB4	TYPE_STRING	"6 4 7e7d 0 0 1"
+		BrowzerToolBarB5	TYPE_STRING	"6 5 7dad 0 1 1"
+		CirGPPADoc	TYPE_DWORD16	0xe81b
+		CirGPPAFloat	TYPE_BOOL	FALSE
+		CirGPPAWindowRect	TYPE_STRING	"fffffffe 6e 20e 92"
+		CirGPPAToolBarView	TYPE_BOOL	TRUE
+		CirGPPAToolBarB0	TYPE_STRING	"16 0 7e08 0 13 1"
+		CirGPPAToolBarB1	TYPE_STRING	"16 1 7e09 0 14 1"
+		CirGPPAToolBarB2	TYPE_STRING	"16 2 7e0a 0 15 1"
+		CirGPPAToolBarB3	TYPE_STRING	"16 3 7e0b 0 16 1"
+		CirGPPAToolBarB4	TYPE_STRING	"16 4 7e0c 0 17 1"
+		CirGPPAToolBarB5	TYPE_STRING	"16 5 7e0d 0 18 1"
+		CirGPPAToolBarB6	TYPE_STRING	"16 6 0 1 6 1"
+		CirGPPAToolBarB7	TYPE_STRING	"16 7 7e0e 0 19 1"
+		CirGPPAToolBarB8	TYPE_STRING	"16 8 7e0f 0 1a 1"
+		CirGPPAToolBarB9	TYPE_STRING	"16 9 7e22 0 1b 1"
+		CirGPPAToolBarB10	TYPE_STRING	"16 a 7e21 0 1c 1"
+		CirGPPAToolBarB11	TYPE_STRING	"16 b 0 1 6 1"
+		CirGPPAToolBarB12	TYPE_STRING	"16 c 7e10 0 1d 1"
+		CirGPPAToolBarB13	TYPE_STRING	"16 d 7e11 0 1e 1"
+		CirGPPAToolBarB14	TYPE_STRING	"16 e 7e12 0 1f 1"
+		CirGPPAToolBarB15	TYPE_STRING	"16 f 7e13 0 20 1"
+		CirGPPAToolBarB16	TYPE_STRING	"16 10 0 1 6 1"
+		CirGPPAToolBarB17	TYPE_STRING	"16 11 7e14 0 21 1"
+		CirGPPAToolBarB18	TYPE_STRING	"16 12 7e15 0 22 1"
+		CirGPPAToolBarB19	TYPE_STRING	"16 13 7e16 0 23 1"
+		CirGPPAToolBarB20	TYPE_STRING	"16 14 7dfa 0 24 1"
+		CirGPPAToolBarB21	TYPE_STRING	"16 15 7e25 0 25 1"
+		ProgramDoc	TYPE_DWORD16	0xe81b
+		ProgramFloat	TYPE_BOOL	FALSE
+		ProgramWindowRect	TYPE_STRING	"fffffffe 50 227 70"
+		ProgramToolBarView	TYPE_BOOL	TRUE
+		ProgramToolBarB0	TYPE_STRING	"25 1d 7ead 0 13 1"
+		ProgramToolBarB1	TYPE_STRING	"25 1e 0 1 6 1"
+		ProgramToolBarB2	TYPE_STRING	"25 0 7dfb 0 0 1"
+		ProgramToolBarB3	TYPE_STRING	"25 1 7dfc 0 1 1"
+		ProgramToolBarB4	TYPE_STRING	"25 2 7dfd 0 2 1"
+		ProgramToolBarB5	TYPE_STRING	"25 3 7dfe 0 3 1"
+		ProgramToolBarB6	TYPE_STRING	"25 4 0 1 6 1"
+		ProgramToolBarB7	TYPE_STRING	"25 5 7ea3 0 11 1"
+		ProgramToolBarB8	TYPE_STRING	"25 6 7d6b 0 12 1"
+		ProgramToolBarB9	TYPE_STRING	"25 1d 0 1 6 1"
+		ProgramToolBarB10	TYPE_STRING	"25 1e 7ee8 0 14 1"
+		ProgramToolBarB11	TYPE_STRING	"25 1f 7ee9 0 15 1"
+		ProgramToolBarB12	TYPE_STRING	"25 20 7eea 0 16 1"
+		ProgramToolBarB13	TYPE_STRING	"25 21 0 1 6 1"
+		ProgramToolBarB14	TYPE_STRING	"25 18 7eda 0 f 1"
+		ProgramToolBarB15	TYPE_STRING	"25 23 7edd 0 c 1"
+		ProgramToolBarB16	TYPE_STRING	"25 7 0 1 6 1"
+		ProgramToolBarB17	TYPE_STRING	"25 8 7e00 0 4 1"
+		ProgramToolBarB18	TYPE_STRING	"25 9 7dff 0 5 1"
+		ProgramToolBarB19	TYPE_STRING	"25 a 0 1 6 1"
+		ProgramToolBarB20	TYPE_STRING	"25 b 7e95 0 6 1"
+		ProgramToolBarB21	TYPE_STRING	"25 c 7e96 0 7 1"
+		ProgramToolBarB22	TYPE_STRING	"25 d 0 1 6 1"
+		ProgramToolBarB23	TYPE_STRING	"25 e 7e1f 0 8 1"
+		ProgramToolBarB24	TYPE_STRING	"25 f 0 1 6 1"
+		ProgramToolBarB25	TYPE_STRING	"25 10 7d7a 0 9 1"
+		ProgramToolBarB26	TYPE_STRING	"25 11 7d7c 0 a 1"
+		ProgramToolBarB27	TYPE_STRING	"25 12 7d7b 0 b 1"
+		ProgramToolBarB28	TYPE_STRING	"25 80000021 0 1 6 1"
+		ProgramToolBarB29	TYPE_STRING	"25 80000022 7e05 0 0 1"
+		ProgramToolBarB30	TYPE_STRING	"25 80000023 7e06 0 0 1"
+		ProgramToolBarB31	TYPE_STRING	"25 13 0 1 6 1"
+		ProgramToolBarB32	TYPE_STRING	"25 14 7db7 0 e 1"
+		ProgramToolBarB33	TYPE_STRING	"25 80000025 7e17 0 10 1"
+		ProgramToolBarB34	TYPE_STRING	"25 80000026 7da4 0 0 1"
+		ProgramToolBarB35	TYPE_STRING	"25 80000027 7e7e 0 0 1"
+		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 0 1"
+		CommentDoc	TYPE_DWORD16	0xe81b
+		CommentFloat	TYPE_BOOL	FALSE
+		CommentWindowRect	TYPE_STRING	"225 50 263 70"
+		CommentToolBarView	TYPE_BOOL	TRUE
+		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
+		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
+		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
+		DMemoryDoc	TYPE_DWORD16	0xe81b
+		DMemoryFloat	TYPE_BOOL	FALSE
+		DMemoryWindowRect	TYPE_STRING	"261 50 288 70"
+		DMemoryToolBarView	TYPE_BOOL	TRUE
+		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
+		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
+		DMemoryToolBarB2	TYPE_STRING	"7 80000004 0 1 6 1"
+		DMemoryToolBarB3	TYPE_STRING	"7 80000005 4e69 1 64 1"
+		DMemoryToolBarB4	TYPE_STRING	"7 80000001 0 1 6 1"
+		DMemoryToolBarB5	TYPE_STRING	"7 80000000 7e77 0 2 1"
+		DMemoryToolBarB6	TYPE_STRING	"7 0 7e72 0 3 1"
+		SFCDoc	TYPE_DWORD16	0xe81b
+		SFCFloat	TYPE_BOOL	FALSE
+		SFCWindowRect	TYPE_STRING	"286 50 343 70"
+		SFCToolBarView	TYPE_BOOL	TRUE
+		SFCSToolBarB0	TYPE_STRING	"9 0 7ecb 0 0 1"
+		SFCSToolBarB1	TYPE_STRING	"9 1 7ecc 0 1 1"
+		SFCSToolBarB2	TYPE_STRING	"9 2 7ecd 0 2 1"
+		SFCSToolBarB3	TYPE_STRING	"9 3 0 1 6 1"
+		SFCSToolBarB4	TYPE_STRING	"9 4 7ebb 0 3 1"
+		SFCSToolBarB5	TYPE_STRING	"9 5 7eba 0 4 1"
+		SFCSToolBarB6	TYPE_STRING	"9 6 0 1 6 1"
+		SFCSToolBarB7	TYPE_STRING	"9 7 7ed1 0 5 1"
+		SFCSToolBarB8	TYPE_STRING	"9 8 7eff 0 6 1"
+		SFCStepDoc	TYPE_DWORD16	0xe81b
+		SFCStepFloat	TYPE_BOOL	FALSE
+		SFCStepWindowRect	TYPE_STRING	"1d0 2e 43c 52"
+		SFCStepToolBarView	TYPE_BOOL	TRUE
+		SFCStepToolBarB0	TYPE_STRING	"18 0 7ec1 0 0 1"
+		SFCStepToolBarB1	TYPE_STRING	"18 1 7ec2 0 1 1"
+		SFCStepToolBarB2	TYPE_STRING	"18 2 7edf 0 2 1"
+		SFCStepToolBarB3	TYPE_STRING	"18 3 7ec3 0 3 1"
+		SFCStepToolBarB4	TYPE_STRING	"18 4 7ec4 0 4 1"
+		SFCStepToolBarB5	TYPE_STRING	"18 5 7ec5 0 5 1"
+		SFCStepToolBarB6	TYPE_STRING	"18 6 7ec6 0 6 1"
+		SFCStepToolBarB7	TYPE_STRING	"18 7 7ec7 0 c 1"
+		SFCStepToolBarB8	TYPE_STRING	"18 8 7ec8 0 d 1"
+		SFCStepToolBarB9	TYPE_STRING	"18 9 7ec9 0 e 1"
+		SFCStepToolBarB10	TYPE_STRING	"18 a 7eca 0 f 1"
+		SFCStepToolBarB11	TYPE_STRING	"18 b 7f07 0 10 1"
+		SFCStepToolBarB12	TYPE_STRING	"18 c 0 1 6 1"
+		SFCStepToolBarB13	TYPE_STRING	"18 d 7ebc 0 7 1"
+		SFCStepToolBarB14	TYPE_STRING	"18 e 7ebd 0 8 1"
+		SFCStepToolBarB15	TYPE_STRING	"18 f 7ebe 0 9 1"
+		SFCStepToolBarB16	TYPE_STRING	"18 10 7ebf 0 a 1"
+		SFCStepToolBarB17	TYPE_STRING	"18 11 7ec0 0 b 1"
+		SFCStepToolBarB18	TYPE_STRING	"18 12 7eec 0 11 1"
+		SFCStepToolBarB19	TYPE_STRING	"18 13 7eb6 0 12 1"
+		SFCStepToolBarB20	TYPE_STRING	"18 14 7eb7 0 13 1"
+		SFCStepToolBarB21	TYPE_STRING	"18 15 7eb8 0 14 1"
+		SFCStepToolBarB22	TYPE_STRING	"18 16 7eb9 0 15 1"
+		SFCStepToolBarB23	TYPE_STRING	"18 17 7f05 0 16 1"
+		STEditDoc	TYPE_DWORD16	0xe81b
+		STEditFloat	TYPE_BOOL	FALSE
+		STEditWindowRect	TYPE_STRING	"0 2e 13c 4e"
+		STEditToolBarView	TYPE_BOOL	FALSE
+		STEditToolBarB0	TYPE_STRING	"10 0 7f63 0 0 1"
+		STEditToolBarB1	TYPE_STRING	"10 1 7f6a 0 1 1"
+		STEditToolBarB2	TYPE_STRING	"10 2 7f6b 0 2 1"
+		STEditToolBarB3	TYPE_STRING	"10 3 0 1 6 1"
+		STEditToolBarB4	TYPE_STRING	"10 4 7f65 0 3 1"
+		STEditToolBarB5	TYPE_STRING	"10 5 0 1 6 1"
+		STEditToolBarB6	TYPE_STRING	"10 6 7f70 0 4 1"
+		STEditToolBarB7	TYPE_STRING	"10 7 0 1 6 1"
+		STEditToolBarB8	TYPE_STRING	"10 8 7f6c 0 5 1"
+		STEditToolBarB9	TYPE_STRING	"10 9 7f64 0 6 1"
+		STEditToolBarB10	TYPE_STRING	"10 a 7f6d 0 7 1"
+		STEditToolBarB11	TYPE_STRING	"10 b 7f6e 0 8 1"
+		STEditToolBarB12	TYPE_STRING	"10 c 7f6f 0 9 1"
+		STEditToolBarB13	TYPE_STRING	"10 d 0 1 6 1"
+		STEditToolBarB14	TYPE_STRING	"10 e 7f7e 0 a 1"
+		STEditToolBarB15	TYPE_STRING	"10 f 7f80 0 b 1"
+[App]
+	AppInformation:
+		MajorVersion	TYPE_DWORD10	8
+		MinorVersion	TYPE_STRING	"52E"
+	Project:
+		ProjectPath	TYPE_STRING	"D:\"
+		ProjectName	TYPE_STRING	"ABC"
+		ProjectComment	TYPE_STRING	""
+		ChildWndStyle	TYPE_BOOL	TRUE
+		SortType	TYPE_DWORD10	0
+	SaveTime:
+		Year	TYPE_DWORD10	2018
+		Month	TYPE_DWORD10	6
+		Day	TYPE_DWORD10	29
+		Hour	TYPE_DWORD10	14
+		Minute	TYPE_DWORD10	21
+		Second	TYPE_DWORD10	45
+[Prg]
+	PrgOptDlg:
+		EditBlock	TYPE_WORD10	0
+		DevCmnt	TYPE_BOOL	FALSE
+		MastCtrl	TYPE_BOOL	TRUE
+		RunWriteSet	TYPE_WORD10	2
+		RunWriteMethod	TYPE_WORD10	0
+		RunWriteFallInstruction	TYPE_BOOL	FALSE
+		RunWriteBackup	TYPE_BOOL	FALSE
+		DupliCoilCheck	TYPE_BOOL	FALSE
+		MemoryMonFlag	TYPE_BOOL	FALSE
+		ViewAllWnd	TYPE_BOOL	FALSE
+		MultiRefWnd	TYPE_WORD10	1
+		JumpStartBlock	TYPE_BOOL	FALSE
+		AutoScrollMon	TYPE_BOOL	FALSE
+		AutoScrollMonMode	TYPE_BOOL	FALSE
+		CompileWConvert	TYPE_BOOL	TRUE
+		InstructionHelp	TYPE_BOOL	TRUE
+		CmntDevCnt	TYPE_DWORD10	11
+		CmntDevCode1	TYPE_WORD16	0x90
+		CmntExtCode1	TYPE_WORD16	0x0
+		CmntDev1	TYPE_STRING	"M"
+		CmntDevCode2	TYPE_WORD16	0x91
+		CmntExtCode2	TYPE_WORD16	0x0
+		CmntDev2	TYPE_STRING	"Ãÿ ‚M"
+		CmntDevCode3	TYPE_WORD16	0x98
+		CmntExtCode3	TYPE_WORD16	0x0
+		CmntDev3	TYPE_STRING	"S"
+		CmntDevCode4	TYPE_WORD16	0x9c
+		CmntExtCode4	TYPE_WORD16	0x0
+		CmntDev4	TYPE_STRING	"X"
+		CmntDevCode5	TYPE_WORD16	0x9d
+		CmntExtCode5	TYPE_WORD16	0x0
+		CmntDev5	TYPE_STRING	"Y"
+		CmntDevCode6	TYPE_WORD16	0xa8
+		CmntExtCode6	TYPE_WORD16	0x0
+		CmntDev6	TYPE_STRING	"D"
+		CmntDevCode7	TYPE_WORD16	0xa9
+		CmntExtCode7	TYPE_WORD16	0x0
+		CmntDev7	TYPE_STRING	"Ãÿ ‚D"
+		CmntDevCode8	TYPE_WORD16	0xc2
+		CmntExtCode8	TYPE_WORD16	0x0
+		CmntDev8	TYPE_STRING	"T"
+		CmntDevCode9	TYPE_WORD16	0xc5
+		CmntExtCode9	TYPE_WORD16	0x0
+		CmntDev9	TYPE_STRING	"C"
+		CmntDevCode10	TYPE_WORD16	0xd0
+		CmntExtCode10	TYPE_WORD16	0x0
+		CmntDev10	TYPE_STRING	"P"
+		CmntDevCode11	TYPE_WORD16	0xd1
+		CmntExtCode11	TYPE_WORD16	0x0
+		CmntDev11	TYPE_STRING	"I"
+	PrgList:
+		PRGFILE1	TYPE_STRING	"MAIN"
+		PrgCount	TYPE_WORD10	1
+		DevUsePrgOpt	TYPE_BOOL	TRUE
+		DevUseBlkOpt	TYPE_BOOL	TRUE
+		NumberOfContact	TYPE_DWORD10	9
+		NumberOfContactRight	TYPE_DWORD10	5
+	PRGFILE1_SEQ:
+		CmntPrg1	TYPE_WORD10	2
+		CmntPrg2	TYPE_WORD10	2
+		CmntPrg3	TYPE_WORD10	2
+		CmntPrg4	TYPE_WORD10	2
+		CmntPrg5	TYPE_WORD10	2
+		CmntPrg6	TYPE_WORD10	2
+		CmntPrg7	TYPE_WORD10	2
+		CmntPrg8	TYPE_WORD10	2
+		CmntPrg9	TYPE_WORD10	2
+		CmntPrg10	TYPE_WORD10	2
+		CmntPrg11	TYPE_WORD10	2
+	PrgMacroLib:
+		MacroInsOpt	TYPE_WORD10	0
+[Mon]
+	MonitorStatusDlg:
+		MonStatus	TYPE_BOOL	TRUE
+		DispStatus	TYPE_BOOL	FALSE
+		FloatState	TYPE_BOOL	TRUE
+		WindowLeft	TYPE_DWORD10	1036
+		WindowTop	TYPE_DWORD10	66
+		WindowRight	TYPE_DWORD10	1282
+		WindowBottom	TYPE_DWORD10	90
+	MonitorStartCond:
+		ExecCondition	TYPE_WORD10	0
+		ProgramName	TYPE_STRING	""
+		SetCondition	TYPE_BOOL	FALSE
+		DeviceCond	TYPE_BOOL	FALSE
+		DeviceType	TYPE_BOOL	TRUE
+		WordDevice	TYPE_STRING	""
+		BitDevice	TYPE_STRING	""
+		WordValue	TYPE_DWORD10	0
+		DataTypeDH	TYPE_WORD10	0
+		DataFormat	TYPE_WORD10	0
+		BitDeviceTrigger	TYPE_BOOL	TRUE
+		StepNoSelection	TYPE_BOOL	FALSE
+		StepNo	TYPE_DWORD10	0
+		StepTrigger	TYPE_WORD10	1
+		BlockNoSelection	TYPE_BOOL	FALSE
+		BlockNo	TYPE_DWORD10	0
+		BStepType	TYPE_BOOL	TRUE
+		BStepNo	TYPE_DWORD10	0
+		BSeqStepNo	TYPE_DWORD10	0
+		BStepTrigger	TYPE_WORD10	1
+		BTranNo	TYPE_DWORD10	0
+		BSeqTranNo	TYPE_DWORD10	0
+		BTranTrigger	TYPE_WORD10	1
+		EntSelection	TYPE_BOOL	FALSE
+		EntStepNo	TYPE_DWORD10	0
+		EntTrigger	TYPE_WORD10	1
+	MonitorStopCond:
+		ExecCondition	TYPE_WORD10	0
+		ProgramName	TYPE_STRING	""
+		SetCondition	TYPE_BOOL	FALSE
+		DeviceCond	TYPE_BOOL	FALSE
+		DeviceType	TYPE_BOOL	TRUE
+		WordDevice	TYPE_STRING	""
+		BitDevice	TYPE_STRING	""
+		WordValue	TYPE_DWORD10	0
+		DataTypeDH	TYPE_WORD10	0
+		DataFormat	TYPE_WORD10	0
+		BitDeviceTrigger	TYPE_BOOL	TRUE
+		StepNoSelection	TYPE_BOOL	FALSE
+		StepNo	TYPE_DWORD10	0
+		StepTrigger	TYPE_WORD10	1
+		BlockNoSelection	TYPE_BOOL	FALSE
+		BlockNo	TYPE_DWORD10	0
+		BStepType	TYPE_BOOL	TRUE
+		BStepNo	TYPE_DWORD10	0
+		BSeqStepNo	TYPE_DWORD10	0
+		BStepTrigger	TYPE_WORD10	1
+		BTranNo	TYPE_DWORD10	0
+		BSeqTranNo	TYPE_DWORD10	0
+		BTranTrigger	TYPE_WORD10	1
+		EntSelection	TYPE_BOOL	FALSE
+		EntStepNo	TYPE_DWORD10	0
+		EntTrigger	TYPE_WORD10	1
+	Option:
+		CycleTime	TYPE_DWORD10	100
+		LocalStatus	TYPE_WORD10	0
+		SetCondition	TYPE_BOOL	FALSE
+		ProgramName	TYPE_STRING	""
+		LocalSetNo	TYPE_DWORD10	0
+		TCSetRefName	TYPE_STRING	""
+		BitPattern	TYPE_BOOL	TRUE
+		WSTOption	TYPE_BOOL	FALSE
+		WSTProgram	TYPE_STRING	""
+		WSTOptionTime	TYPE_DWORD10	10
+		WSTAutoStop	TYPE_BOOL	TRUE
+		WSTBlockSpec	TYPE_BOOL	FALSE
+		WSTBlockNum	TYPE_WORD10	0
+	StepExecution:
+		StartStepFlag	TYPE_WORD10	0
+		StartStepNum	TYPE_STRING	""
+		StartStepNo	TYPE_DWORD10	0
+		RepeatCountFlag	TYPE_WORD10	0
+		RepeatCount	TYPE_DWORD10	1
+		RepeatTimeFlag	TYPE_WORD10	0
+		RepeatTime	TYPE_DWORD10	1
+		BreakPointFlag	TYPE_WORD10	0
+		BreakPointFlag0	TYPE_WORD10	0
+		BreakStepNum0	TYPE_STRING	""
+		BreakStepNo0	TYPE_DWORD10	0
+		BreakPointFlag1	TYPE_WORD10	0
+		BreakStepNum1	TYPE_STRING	""
+		BreakStepNo1	TYPE_DWORD10	0
+		BreakPointFlag2	TYPE_WORD10	0
+		BreakStepNum2	TYPE_STRING	""
+		BreakStepNo2	TYPE_DWORD10	0
+		BreakPointFlag3	TYPE_WORD10	0
+		BreakStepNum3	TYPE_STRING	""
+		BreakStepNo3	TYPE_DWORD10	0
+		BreakPointFlag4	TYPE_WORD10	0
+		BreakStepNum4	TYPE_STRING	""
+		BreakStepNo4	TYPE_DWORD10	0
+		BreakPointFlag5	TYPE_WORD10	0
+		BreakStepNum5	TYPE_STRING	""
+		BreakStepNo5	TYPE_DWORD10	0
+		BreakPointFlag6	TYPE_WORD10	0
+		BreakStepNum6	TYPE_STRING	""
+		BreakStepNo6	TYPE_DWORD10	0
+		BreakPointFlag7	TYPE_WORD10	0
+		BreakStepNum7	TYPE_STRING	""
+		BreakStepNo7	TYPE_DWORD10	0
+	PartExecution:
+		StartStepNum	TYPE_STRING	""
+		StartStepNo	TYPE_DWORD10	-1
+		ScanTime	TYPE_WORD10	0
+		Interrupt	TYPE_WORD10	0
+		Refresh	TYPE_WORD10	0
+		BrkCon	TYPE_DWORD10	-1
+		DeviceBrk	TYPE_BOOL	FALSE
+		BreakPts	TYPE_BOOL	FALSE
+		ScanTimeRadio	TYPE_DWORD10	0
+		DeviceBreakCondition	TYPE_WORD10	0
+		BitDevice	TYPE_STRING	""
+		BitDeviceCondition	TYPE_WORD10	0
+		WordDevice	TYPE_STRING	""
+		WordDeviceCondition	TYPE_WORD10	-1
+		NumberOfBreakObject	TYPE_DWORD10	0
+	SkipExecution:
+		NumberOfBreakObject	TYPE_DWORD10	0
+	MultiDeviceData:
+		MultiCheck	TYPE_BOOL	FALSE
+		DeviceEntFlg	TYPE_BOOL	FALSE
+		TCPrgName	TYPE_STRING	""
+		DeviceEntCnt	TYPE_WORD10	0
+[Cmnt]
+	SaveDevNameList:
+		SaveDevName000	TYPE_STRING	"M0"
+		SaveDevName001	TYPE_STRING	"Y001"
+		SaveDevName002	TYPE_STRING	"X000"
+		SaveDevName003	TYPE_STRING	"X0"
+		SaveDevNameNo	TYPE_WORD10	4
+	SaveStrList:
+		SaveStrNo	TYPE_WORD10	0
+	SaveStrChgList:
+		SaveStrChgNo	TYPE_WORD10	0
+[Devm]
+	SaveStrList:
+		SaveStrNo	TYPE_WORD10	0
+	SaveStrChgList:
+		SaveStrChgNo	TYPE_WORD10	0
+	DevmInfo:
+		DevmDataNo	TYPE_WORD10	0
+[Window]
+	Window000:
+		DataName	TYPE_STRING	"MAIN"
+		WindowType	TYPE_DWORD10	257
+		WindowLeft	TYPE_DWORD10	0
+		WindowTop	TYPE_DWORD10	0
+		WindowRight	TYPE_DWORD10	936
+		WindowBottom	TYPE_DWORD10	565
+		Maximize	TYPE_BOOL	TRUE
+		Minimize	TYPE_BOOL	FALSE
+		InsFlag	TYPE_BOOL	FALSE
+		PrgMode	TYPE_WORD10	2
+		MonFlag	TYPE_BOOL	FALSE
+		FrameStat	TYPE_WORD10	0
+		StepNo	TYPE_DWORD10	-1
+		BlockNo	TYPE_WORD10	65535
+		StepPosition	TYPE_DWORD10	24
+		ViewX	TYPE_DWORD10	0
+		ViewY	TYPE_DWORD10	0
+		WindowOrgX	TYPE_DWORD10	0
+		WindowOrgY	TYPE_DWORD10	0
+		CursorPositionX	TYPE_DWORD10	1
+		CursorPositionY	TYPE_DWORD10	3
+		MonitorDispType	TYPE_DWORD10	0
+		DispLabelFlag	TYPE_BOOL	FALSE
+		DispLabelStyle	TYPE_BOOL	FALSE
+		DispCommentFlag	TYPE_BOOL	TRUE
+		DispCommentOptFlag	TYPE_BOOL	FALSE
+		DispNoteFlag	TYPE_BOOL	TRUE
+		DispStatementFlag	TYPE_BOOL	TRUE
+		DispPercent	TYPE_DWORD10	100
+		DispAutoSizeFlag	TYPE_BOOL	TRUE
+		DispMacroFlag	TYPE_BOOL	FALSE
+		DispSizeSpecify	TYPE_BOOL	FALSE
+		DispDevCommentLine	TYPE_DWORD10	4
+		DispLdrMonDevData	TYPE_BOOL	TRUE
+	Window001:
+		DataName	TYPE_STRING	"COMMENT"
+		WindowType	TYPE_DWORD10	769
+		WindowLeft	TYPE_DWORD10	66
+		WindowTop	TYPE_DWORD10	87
+		WindowRight	TYPE_DWORD10	1006
+		WindowBottom	TYPE_DWORD10	656
+		Maximize	TYPE_BOOL	FALSE
+		Minimize	TYPE_BOOL	FALSE

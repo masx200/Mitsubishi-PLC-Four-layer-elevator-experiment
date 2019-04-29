@@ -1,0 +1,268 @@
+[Pass]
+	PassSet:
+		PassFlag	TYPE_BOOL	FALSE
+[App]
+	Project:
+		CpuType	TYPE_STRING	"FX2N(C)"
+		ProjectComment	TYPE_STRING	""
+		AutoSave	TYPE_BOOL	FALSE
+[Prt]
+	DlgLabel:
+		FBVariableCheck	TYPE_DWORD10	0
+		GlobalCheck	TYPE_DWORD10	1
+		FBDevCommentLineCheck	TYPE_DWORD10	0
+		FBStatementnoteCheck	TYPE_DWORD10	0
+		SupplConMode	TYPE_DWORD10	0
+		FBDevComOption	TYPE_DWORD10	0
+		FBDevCommentLine	TYPE_DWORD10	0
+		FBCheck	TYPE_DWORD10	0
+		LocalCheck	TYPE_DWORD10	1
+		FBDevComCheck	TYPE_DWORD10	0
+		FBPrintMode	TYPE_DWORD10	0
+	DlgCmnt:
+		RangeOption	TYPE_DWORD10	0
+		UsingPrintCheck	TYPE_DWORD10	1
+		EquipNameCheck	TYPE_DWORD10	1
+		ProgramLeaf	TYPE_STRING	"MAIN"
+		CommentLeaf	TYPE_STRING	""
+		UsingCoilCheck	TYPE_DWORD10	0
+	DlgDmem:
+		PrintClass	TYPE_DWORD10	0
+		ZeroPrintCheck	TYPE_DWORD10	0
+		PrintStyle	TYPE_DWORD10	0
+		RangeOption	TYPE_DWORD10	0
+		ProgramLeaf	TYPE_STRING	"MAIN"
+	DlgDuse:
+		BlockRangeOption	TYPE_DWORD10	0
+		BlockTo	TYPE_DWORD10	-1
+		RangeOption	TYPE_DWORD10	0
+		ProgramCommentCheck	TYPE_DWORD10	0
+		UsingPrintCheck	TYPE_DWORD10	1
+		CommonCommentCheck	TYPE_DWORD10	0
+		BlockFrom	TYPE_DWORD10	-1
+		EquipNameCheck	TYPE_DWORD10	0
+		DeviceCommentCheck	TYPE_DWORD10	0
+		ProgramLeaf	TYPE_STRING	"MAIN"
+		UsingMatrixCheck	TYPE_DWORD10	1
+		ProgramSelect	TYPE_DWORD10	1
+	DlgLadr:
+		PointUsingPositionOption	TYPE_DWORD10	0
+		CommonCommentCheck	TYPE_DWORD10	0
+		DeviceCommentCheck	TYPE_DWORD10	1
+		ProgramLeaf_Multi_1	TYPE_STRING	"MAIN"
+		LadderDevCommentLineCheck	TYPE_DWORD10	0
+		PointUsingNoSpaceCheck	TYPE_DWORD10	0
+		RangeTo	TYPE_DWORD10	-1
+		StatementNoteCheck	TYPE_DWORD10	0
+		NopLFPrintCheck	TYPE_DWORD10	0
+		ProgramCommentCheck	TYPE_DWORD10	0
+		CoilUsingNoSpaceCheck	TYPE_DWORD10	0
+		LadderDevCommentLine	TYPE_DWORD10	0
+		LadderPrintCheck	TYPE_DWORD10	1
+		RangeFrom	TYPE_DWORD10	-1
+		EquipNameCheck	TYPE_DWORD10	0
+		PointUsingRangeOption	TYPE_DWORD10	0
+		CmntDispOption	TYPE_DWORD10	0
+		CoilUsingCheck	TYPE_DWORD10	0
+		PointUsingCheck	TYPE_DWORD10	1
+		CoilUsingRangeOption	TYPE_DWORD10	0
+		PointUsingNoSpaceRow	TYPE_DWORD10	0
+		BlockPageCheck	TYPE_DWORD10	1
+		EquipNameOption	TYPE_DWORD10	0
+		NonCommentPrintCheck	TYPE_DWORD10	0
+		MacroPrintFormatCheck	TYPE_DWORD10	0
+		DeviceLadderPrintCheck	TYPE_DWORD10	0
+		SupplConMode	TYPE_DWORD10	0
+		RangeOption	TYPE_DWORD10	0
+	DlgPcpu:
+		PcRasCheck	TYPE_DWORD10	0
+		PositionCheck	TYPE_DWORD10	0
+		SerialCheck	TYPE_DWORD10	0
+		ProgramCheck	TYPE_DWORD10	0
+		PcFileCheck	TYPE_DWORD10	0
+		DousaCheck	TYPE_DWORD10	0
+		MultiCpuCheck	TYPE_DWORD10	0
+		PcSystemCheck	TYPE_DWORD10	1
+		SfcCheck	TYPE_DWORD10	0
+		MemCapaCheck	TYPE_DWORD10	1
+		BootFileCheck	TYPE_DWORD10	0
+		DeviceCheck	TYPE_DWORD10	1
+		XyAllotCheck	TYPE_DWORD10	0
+		IoAllotCheck	TYPE_DWORD10	1
+		PcNameCheck	TYPE_DWORD10	1
+		SafetyCheck	TYPE_DWORD10	0
+	DlgMELSAP:
+		BlockRangeOption	TYPE_DWORD10	0
+		BlockParamCheck	TYPE_DWORD10	0
+		SupplConMode	TYPE_DWORD10	1
+		CommentListCheck	TYPE_DWORD10	1
+		CmntDispOption	TYPE_DWORD10	0
+		SFCCheck	TYPE_DWORD10	1
+		SupplTransCheck	TYPE_DWORD10	0
+		StepTransCheck	TYPE_DWORD10	0
+		SupplStepTransCheck	TYPE_DWORD10	1
+		SupplDevCommentCheck	TYPE_DWORD10	0
+		StepTransMode	TYPE_DWORD10	0
+		BlockListCheck	TYPE_DWORD10	1
+		BlockFrom	TYPE_DWORD10	-1
+		BlockTo	TYPE_DWORD10	-1
+		SFCColumns	TYPE_DWORD10	3
+		SupplStepCheck	TYPE_DWORD10	0
+	DlgSFC:
+		BlockListCheck	TYPE_DWORD10	1
+		SupplConMode	TYPE_DWORD10	0
+		SFCCheck	TYPE_DWORD10	1
+		SFCDevCommentLine	TYPE_DWORD10	0
+		SupplDevCommentCheck	TYPE_DWORD10	0
+		SupplStepCheck	TYPE_DWORD10	1
+		EquipNameOption	TYPE_DWORD10	0
+		NoteListCheck	TYPE_DWORD10	1
+		BlockParamCheck	TYPE_DWORD10	0
+		StepTransMode	TYPE_DWORD10	0
+		BlockRangeOption	TYPE_DWORD10	0
+		CmntDispOption	TYPE_DWORD10	0
+		SupplEquipCheck	TYPE_DWORD10	1
+		CommentListCheck	TYPE_DWORD10	1
+		SupplTransCheck	TYPE_DWORD10	1
+		BlockTo	TYPE_DWORD10	-1
+		SFCColumns	TYPE_DWORD10	2
+		BlockFrom	TYPE_DWORD10	-1
+		StepTransCheck	TYPE_DWORD10	1
+		SFCDevCommentLineCheck	TYPE_DWORD10	0
+	DlgPaper:
+		MarginLeft	TYPE_DWORD10	2000
+		OrderPnet	TYPE_DWORD10	0
+		PlurlMlib	TYPE_DWORD10	0
+		PlurlPcpu	TYPE_DWORD10	0
+		PlurlSFC	TYPE_DWORD10	0
+		Format	TYPE_DWORD10	2
+		OrderProj	TYPE_DWORD10	11
+		OrderList	TYPE_DWORD10	5
+		PlurlSDT	TYPE_DWORD10	0
+		PlurlLabel	TYPE_DWORD10	0
+		MarginTop	TYPE_DWORD10	2500
+		OrderST	TYPE_DWORD10	0
+		OrderCmnt	TYPE_DWORD10	7
+		PlurlDuplex	TYPE_DWORD10	0
+		OrderDini	TYPE_DWORD10	0
+		OrderDmem	TYPE_DWORD10	8
+		PlurlPnet	TYPE_DWORD10	0
+		PlurlMELSAP	TYPE_DWORD10	0
+		HeaderCheck	TYPE_DWORD10	0
+		PlurlProj	TYPE_DWORD10	0
+		PrimaryValue	TYPE_DWORD10	1
+		OrderDuplex	TYPE_DWORD10	0
+		PlurlSysMon	TYPE_DWORD10	0
+		PlurlList	TYPE_DWORD10	0
+		PlurlTitle	TYPE_DWORD10	0
+		OrderTEL	TYPE_DWORD10	12
+		OrderDuse	TYPE_DWORD10	9
+		OrderLadr	TYPE_DWORD10	4
+		OrderMELSAP	TYPE_DWORD10	0
+		PlurlST	TYPE_DWORD10	0
+		PlurlCmnt	TYPE_DWORD10	0
+		OrderCuse	TYPE_DWORD10	10
+		PlurlDini	TYPE_DWORD10	0
+		PlurlDmem	TYPE_DWORD10	0
+		MarginBottom	TYPE_DWORD10	2500
+		OrderSysMon	TYPE_DWORD10	0
+		OrderLabel	TYPE_DWORD10	0
+		OrderTcvl	TYPE_DWORD10	6
+		PlurlTEL	TYPE_DWORD10	0
+		PlurlDuse	TYPE_DWORD10	0
+		PlurlLadr	TYPE_DWORD10	0
+		Position	TYPE_DWORD10	2
+		MarginRight	TYPE_DWORD10	2000
+		PlurlCuse	TYPE_DWORD10	0
+		FooterCheck	TYPE_DWORD10	0
+		OrderMlib	TYPE_DWORD10	0
+		OrderPcpu	TYPE_DWORD10	2
+		OrderSFC	TYPE_DWORD10	3
+		OrderSDT	TYPE_DWORD10	0
+		OrderTitle	TYPE_DWORD10	1
+		PlurlTcvl	TYPE_DWORD10	0
+	DlgSysMon:
+		SysMonDataLeafPath	TYPE_STRING	""
+	DlgCuse:
+		BlockFrom	TYPE_DWORD10	-1
+		ProgramSelect	TYPE_DWORD10	1
+		EquipNameCheck	TYPE_DWORD10	0
+		BlockRangeOption	TYPE_DWORD10	0
+		UsingPrintCheck	TYPE_DWORD10	1
+		BlockTo	TYPE_DWORD10	-1
+		UsingCoilCheck	TYPE_DWORD10	1
+		RangeOption	TYPE_DWORD10	0
+		CommonCommentCheck	TYPE_DWORD10	0
+		DeviceCommentCheck	TYPE_DWORD10	0
+		UsinJointCheck	TYPE_DWORD10	1
+		ProgramCommentCheck	TYPE_DWORD10	0
+		UsingMatrixCheck	TYPE_DWORD10	1
+		ProgramLeaf	TYPE_STRING	"MAIN"
+	DlgPnet:
+		MelEtherCheck	TYPE_DWORD10	0
+		MelMiniCheck	TYPE_DWORD10	0
+		CcLinkCheck	TYPE_DWORD10	0
+	DlgTcvl:
+		UsingPrintCheck	TYPE_DWORD10	1
+		StackTimerValueCheck	TYPE_DWORD10	0
+		EquipNameCheck	TYPE_DWORD10	0
+		ProgramLeaf	TYPE_STRING	"MAIN"
+		CounterValueCheck	TYPE_DWORD10	0
+		CommonCommentCheck	TYPE_DWORD10	0
+		DeviceCommentCheck	TYPE_DWORD10	0
+		ProgramCommentCheck	TYPE_DWORD10	0
+		TimerValueCheck	TYPE_DWORD10	1
+	DlgST:
+		RangeTo	TYPE_DWORD10	-1
+		RangeOption	TYPE_DWORD10	0
+		RangeFrom	TYPE_DWORD10	-1
+	DlgTEL:
+		A6telCheck	TYPE_DWORD10	0
+		TelnoCheck	TYPE_DWORD10	1
+		Q6telCheck	TYPE_DWORD10	0
+	DlgDini:
+		FigureInteger	TYPE_DWORD10	-1
+		RangeOption	TYPE_DWORD10	0
+		PrintClass	TYPE_DWORD10	0
+		ZeroPrintCheck	TYPE_DWORD10	0
+		PrimaryValueCheck	TYPE_DWORD10	1
+		PrimaryRangeCheck	TYPE_DWORD10	1
+		UsingMatrixCheck	TYPE_DWORD10	0
+		PrintStyle	TYPE_DWORD10	0
+	DlgList:
+		ProgramLeaf	TYPE_STRING	"MAIN"
+		RangeTo	TYPE_DWORD10	-1
+		NonlfPrintCheck	TYPE_DWORD10	0
+		EquipNameCheck	TYPE_DWORD10	0
+		StatementListCheck	TYPE_DWORD10	0
+		RangeFrom	TYPE_DWORD10	-1
+		MacroPrintFormat	TYPE_DWORD10	0
+		PStatementListCheck	TYPE_DWORD10	0
+		ListCheck	TYPE_DWORD10	1
+		DeviceListCheck	TYPE_DWORD10	0
+		ProgramCommentCheck	TYPE_DWORD10	1
+		IStatementListCheck	TYPE_DWORD10	0
+		DeviceCommentCheck	TYPE_DWORD10	0
+		CommonCommentCheck	TYPE_DWORD10	1
+		NonPrintCheck	TYPE_DWORD10	0
+		RangeOption	TYPE_DWORD10	0
+		StatementNoteCheck	TYPE_DWORD10	1
+		NoteListCheck	TYPE_DWORD10	0
+	DlgPttl:
+		ExistCheck	TYPE_DWORD10	0
+		FrameCheck	TYPE_DWORD10	1
+	DlgMlib:
+		MacroDataLeafPath	TYPE_STRING	""
+		LibraryDataLeafPath	TYPE_STRING	""
+		LibraryDataLeaf	TYPE_STRING	""
+		MacroDataLeaf	TYPE_STRING	""
+		PrintOption	TYPE_DWORD10	0
+	DlgDuplex:
+		OperationMode	TYPE_DWORD10	1
+		Tracking	TYPE_DWORD10	1
+	Gui:
+		ActivePrintItem	TYPE_DWORD10	4
+[Cmnt]
+	CommInfo:
+		CommCmntNo	TYPE_WORD10	0
+		CmntLength	TYPE_WORD10	32
